@@ -5,6 +5,13 @@ public class Transport {
     String color;
     int wheels;
 
+    public Transport(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels) {
+        //конструктор по умолчанию - можно прописать ч/либо характерное для всех объектов, указать методы get/setValues, в скобках() срау ввести наименования параметров
+    System.out.println(" Object created");
+    setValues(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels);
+    System.out.println(getValues());
+}
+
     public void setValues(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels) {
         engine = _engine;
         weight = _weight;
