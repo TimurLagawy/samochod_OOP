@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5702e118-b120-4679-bf5d-f7a9bec55a11" name="Changes" comment="Transport_create_classes_&amp;_objects">
+    <list default="true" id="5702e118-b120-4679-bf5d-f7a9bec55a11" name="Changes" comment="Transport_create_constructors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
@@ -42,6 +42,20 @@
     "last_opened_file_path": "C:/Users/user/IdeaProjects/Samochod_OOP"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Samochod_OOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674815917500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Transport_create_constructors">
+      <created>1674824521283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674824521283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Transport" />
     <MESSAGE value="Transport_create_classes_&amp;_objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transport_create_classes_&amp;_objects" />
+    <MESSAGE value="Transport_create_constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transport_create_constructors" />
   </component>
 </project>

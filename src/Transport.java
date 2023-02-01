@@ -1,27 +1,28 @@
 public class Transport {
-    String engine;
-    float weight, speed;
-    byte[] coordinate;
-    String color;
-    int wheels;
+    private String engine;
+   private float weight;
+   private float speed;
+    private byte[] coordinate;
+    private String color;
+    private int wheels;
 
     public Transport(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels) {
         //конструктор по умолчанию - можно прописать ч/либо характерное для всех объектов, указать методы get/setValues, в скобках() срау ввести наименования параметров
     System.out.println(" Object created");
-    setValues(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels);
+    setValues(_engine, _weight,  _speed,  _coordinate,  _color, _wheels);
     System.out.println(getValues());
 }
 
-    public void setValues(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels) {
-        engine = _engine;
-        weight = _weight;
-        speed = _speed;
-        coordinate = _coordinate;
-        color = _color;
-        wheels  = _wheels;
+    public void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
+        this.engine = engine;
+        this.weight = weight;
+        this.speed = speed;
+        this.coordinate = coordinate;
+        this.color = color;
+        this.wheels  = wheels;
     }
     public String getValues(){
-        String info = " Object engine " + engine + ". Weight " + weight + ". Speed " + speed + ". Color " + color + ". Wheels " +wheels + ". \n";
+        String info = " Object engine " + this.engine + ". Weight " + this.weight + ". Speed " + this.speed + ". Color " + this.color + ". Wheels " + this.wheels + ". \n";
         String infoCoordinate = " Coordinates : \n";
         for (int i = 0; i < coordinate.length; i++) {
             infoCoordinate += coordinate[i] + "\n";

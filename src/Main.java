@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Transport volkswagen = new Transport("Diesel", 2000.0f,180.5f, new byte[] {0, 0, 0}, "Grey", 4 );
+        Transport volkswagen = new Transport("Diesel", 2000.0f,180.5f, new byte[] {1, 0, 1}, "Grey", 4 );
         //volkswagen.setValues("Diesel", 2000.0f,180.5f, new byte[] {0, 0, 0}, "Grey", 4 );
         //String res1 = volkswagen.getValues();
        // System.out.println(res1);
@@ -37,6 +37,6 @@ public class Main {
        // String res4 = audi.getValues();
        // System.out.println(res4);
 
-        System.out.println("prędkość Traka " + truck.speed + " prędkość Volkswagen " + volkswagen.speed +" prędkość BMW " + bmw.speed + " prędkość AUDI " + audi.speed);
+        //System.out.println("prędkość Traka " + truck.speed + " prędkość Volkswagen " + volkswagen.speed +" prędkość BMW " + bmw.speed + " prędkość AUDI " + audi.speed);
     }
 }
