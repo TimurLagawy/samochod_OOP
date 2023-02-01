@@ -1,7 +1,7 @@
 public class Transport {
     private String engine;
    private float weight;
-   private float speed;
+   public float speed;
     private byte[] coordinate;
     private String color;
     private int wheels;
@@ -13,7 +13,7 @@ public class Transport {
     System.out.println(getValues());
 }
 
-    public void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
+    protected void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
         this.engine = engine;
         this.weight = weight;
         this.speed = speed;
@@ -21,7 +21,7 @@ public class Transport {
         this.color = color;
         this.wheels  = wheels;
     }
-    public String getValues(){
+    protected String getValues(){
         String info = " Object engine " + this.engine + ". Weight " + this.weight + ". Speed " + this.speed + ". Color " + this.color + ". Wheels " + this.wheels + ". \n";
         String infoCoordinate = " Coordinates : \n";
         for (int i = 0; i < coordinate.length; i++) {
