@@ -10,7 +10,7 @@ public class Transport {
         //конструктор по умолчанию - можно прописать ч/либо характерное для всех объектов, указать методы get/setValues, в скобках() срау ввести наименования параметров
     System.out.println(" Object created");
     setValues(_engine, _weight,  _speed,  _coordinate,  _color, _wheels);
-    System.out.println(getValues());
+   // System.out.println(getValues());
 }
 
     protected void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
