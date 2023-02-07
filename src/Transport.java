@@ -1,4 +1,4 @@
-public class Transport {
+public abstract class Transport {
     private String engine;
    private float weight;
    public float speed;
@@ -12,8 +12,9 @@ public class Transport {
     setValues(_engine, _weight,  _speed,  _coordinate,  _color, _wheels);
    // System.out.println(getValues());
 }
-
-    protected void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
+public abstract void moveObject(float speed);
+public abstract boolean stopObject();
+        protected void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels) {
         this.engine = engine;
         this.weight = weight;
         this.speed = speed;

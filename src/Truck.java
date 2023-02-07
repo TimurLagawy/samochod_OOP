@@ -5,9 +5,23 @@ public class Truck extends Transport {
     public Truck(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels) {
         super(_engine, _weight, _speed, _coordinate, _color, _wheels);
     }
+
+
+
     public Truck(String _engine, float _weight, float _speed, byte[] _coordinate, String _color, int _wheels, boolean isLoaded) {
         super(_engine, _weight, _speed, _coordinate, _color, _wheels);
         this.isLoaded = isLoaded;
+    }
+    @Override
+    public void moveObject(float speed) {
+        System.out.println("Object move " + speed);
+
+    }
+
+    @Override
+    public boolean stopObject() {
+        this.speed = 0;
+        return true;
     }
 
     public void setValues(String engine, float weight, float speed, byte[] coordinate, String color, int wheels, boolean isLoaded) {
