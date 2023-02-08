@@ -1,5 +1,23 @@
+import db.DB;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
+        DB db = new DB();
+        info("Hello world ", 4.0f);
+    }
+        public static void info () {
+            System.out.println("Hello ");
+        }
+        public static void info(String word){
+            System.out.println(word + " !");
+        }
+        public static void info(String word, float num){
+            System.out.println(word + num + " !");
+        }
+
+    }
+        /*public static void main(String[] args) {
+            DB db = new DB();
 
         Car volkswagen = new Car("Diesel", 2000.0f,180.5f, new byte[] {1, 0, 1}, "Grey", 4 );
         volkswagen.engine.setValues(true, 400);
@@ -41,4 +59,4 @@ public class Main {
      };
      flyCar.moveObject(450.f);
     }
-}
+}*/
