@@ -13,6 +13,7 @@ public abstract class Transport {
     setValues(_engine, _weight,  _speed,  _coordinate,  _color, _wheels);
    // System.out.println(getValues());
 }
+public Transport(){}
 public abstract void moveObject(float speed);
 public abstract boolean stopObject();
         protected void setValues(String typeEngine, float weight, float speed, byte[] coordinate, String color, int wheels) {
