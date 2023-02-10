@@ -1,8 +1,12 @@
 import db.DB;
 
+import javax.swing.*;
+
 public class Main {
     public static void main (String[] args) {
-        Car bmw = new Car();
-        bmw.setLight(true);
-        bmw.blinkLight();
-    }}
+        ContactForm contactForm = new ContactForm();
+        contactForm.setVisible(true);//хотим показать приложение
+        //contactForm.setVisible(false);//хотим скрыть приложение
+
+    }
+    }
